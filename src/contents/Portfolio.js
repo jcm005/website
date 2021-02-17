@@ -1,23 +1,39 @@
 import React, { Component } from 'react';
-import project1 from '../img/project1.png';
-import project2 from '../img/project2.png';
-import project3 from '../img/project3.png';
-import project4 from '../img/project4.png';
+
 
 class Portfolio extends Component {
     render() {
         return (
             <div className="condiv">
-            <h1 className="subtopic">My Work</h1>
-            <div className="hr_line line2 glass"><div className="inner2 inner3"></div></div>
-            <div class="port_out port1 glass"><a href="https://github.com/vikalp2502/AlgoSort-Sorting-Visualiser"><img src={project1} className="po1"></img></a></div>
-            <div class="port_out port2 glass"><a href="https://github.com/vikalp2502/Shoes-Nike-Landing-page"><img src={project2} className="po1"></img></a></div>
-            <div class="port_out port3 glass"><a href="https://github.com/vikalp2502/To-do-list-v2"><img src={project3} className="po1"></img></a></div>
-            <div class="port_out port4 glass"><a href="https://github.com/vikalp2502/Tribute-to-msd"><img src={project4} className="po1"></img></a></div>
+                <h1 className="subtopic">My Projects</h1>
+                <div>
+                    <a className='link black dim condiv mt4 link ' style={{ height: '150px', width: '650px', left: '10%', top: '12%' }} href='https://github.com/jcm005/QuantitativeTrader'>
+                        <p className='p10'>Algorithmic trading</p>
+
+                    </a>
+
+                    <a
+                        className='condiv mt4 link dim black'
+                        style={{ height: '150px', width: '650px', left: '10%', top: '37%' }}
+                        href='https://facereco555.herokuapp.com'
+                    >
+                        <p className=''>Facial Recognition</p>
+                    </a>
+
+
+
+
+
+                </div>
             </div>
-            )
-        }
+        )
     }
-    
+}
+
 export default Portfolio
-    
+
+//link black dim db mw5 pa2 br2 ba b--black-10 shadow-1
+
+// <a className='condiv mt4 link dim black' style={{ height: '150px', width: '650px', left: '10%', top: '62%' }}>
+//<p className=''>Food.io</p>
+//</a>
