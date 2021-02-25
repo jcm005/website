@@ -5,11 +5,14 @@ const Algotrader = () => {
     return (
 
         <div>
-
-            <a className='portfolio link black dim condiv '
-                href='https://github.com/jcm005/QuantitativeTrader'>
-                <p className='p10'>Algorithmic trading</p>
-            </a>
+            <figure>
+                <figcaption className='a2 condiv'>
+                    <a className='portfolio link black dim condiv '
+                    href='https://github.com/jcm005/QuantitativeTrader'>
+                    <p className='p10'>Algorithmic trading</p>
+                    </a>
+                </figcaption>
+            </figure>
         </div>
 
 
