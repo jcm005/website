@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Algotrader from '../components/algotrader';
 import Facereco from '../components/facereco'
-import './portfolio.css'
+import './content.css'
 
 
 class Portfolio extends Component {
