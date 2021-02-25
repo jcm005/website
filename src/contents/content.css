@@ -1,0 +1,9 @@
+.a2 {
+    position: absolute;
+    background-color: rgba(150, 252, 150, 0.911);
+    transform: rotate(5deg);
+    top: 55%;
+    left:45%;
+    height: 40%;
+    width: 50%;
+}
