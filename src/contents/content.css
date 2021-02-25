@@ -7,3 +7,34 @@
     height: 40%;
     width: 50%;
 }
+
+.a1 {
+    position: absolute;
+    background-color: rgba(103, 217, 252, 0.911);
+    transform: rotate(-5deg);
+    top: 10%;
+    left:5%;
+    height: 40%;
+    width: 50%;
+}
+
+
+.project1{
+    position: absolute;
+    transform: rotate(-5deg);
+    left: 5%;
+    background-color: white;
+    height: 98%;
+    width:98%;
+    
+}
+.project2{
+    position: absolute;
+    background-color: white;
+    flex-wrap: wrap;
+    transform: rotate(5deg);
+    height: 98%;
+    width: 98%;
+    left: 5%; 
+    
+}
