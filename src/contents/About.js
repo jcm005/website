@@ -9,9 +9,8 @@ class About extends Component {
                 <p>Software Developer || Physicist
                 </p>
                 <br></br>
-                <p className="p10">Hello! My name is Joseph.</p> <p className="p10"> I have a very analytical and ambitious personality.
-                With a passion for learning I possess both entrepreneur and detailed-oriented qualities. I am currently investing my time into software development and applied analytics so I may take my creativity and love of developing projects to the next level. I aim to establish products that will higher the human standard of living and quality of life.
-                </p>
+                <p className="p10">Hello! My name is Joseph.</p> <p className="p10">With a Bachelors's in Physics, I am a self-taught software developer and data analyst. I am a natural problem solver/ innovator, with a passion for health and technology. My long-term goal is to apply my love for learning and technology to advance the human standard of living.</p>
+                <p className='tc mt4 white'>I am open to any software engineering positions, including python, full-stack, and machine learning.</p>
 
                 <h3> Education</h3>
                 <h4>B.S. In Physics</h4>
